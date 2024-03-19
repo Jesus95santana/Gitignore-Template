@@ -1,6 +1,19 @@
+# Ignore everything
 *
+
+# Exclude .gitignore from being ignored
+!.gitignore
+
+# Exclude Theme & Plugin directories
 !wp-content/
 !wp-content/themes/
 !wp-content/themes/**
 !wp-content/plugins/
 !wp-content/plugins/**
+
+# Ignore Twenty themes
+/wp-content/themes/twenty*/
+
+# ReIgnore Igore Files
+.DS_Store
+node_modules
