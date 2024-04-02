@@ -14,6 +14,14 @@
 # Ignore Twenty themes
 /wp-content/themes/twenty*/
 
+# Ignore Common Plugins
+/wp-content/plugins/siteground-migrator
+/wp-content/plugins/worker
+/wp-content/plugins/wp-migration-duplicator
+/wp-content/plugins/wordpress-importer
+/wp-content/plugins/sg-security
+/wp-content/plugins/sg-cachepress
+
 # ReIgnore Igore Files
 .DS_Store
 node_modules
