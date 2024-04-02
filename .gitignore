@@ -21,6 +21,10 @@
 /wp-content/plugins/wordpress-importer
 /wp-content/plugins/sg-security
 /wp-content/plugins/sg-cachepress
+/wp-content/plugins/all-in-one-wp-migration
+/wp-content/plugins/jetpack
+/wp-content/plugins/wordfence
+/wp-content/plugins/wpe-site-migration
 
 # ReIgnore Igore Files
 .DS_Store
