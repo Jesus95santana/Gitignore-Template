@@ -11,21 +11,30 @@
 !wp-content/plugins/
 !wp-content/plugins/**
 
-# Ignore Twenty themes
-/wp-content/themes/twenty*/
+# Ignore All themes Except
+/wp-content/themes/*
+!wp-content/themes/Divi/
 
-# Ignore Common Plugins
-/wp-content/plugins/siteground-migrator
-/wp-content/plugins/worker
-/wp-content/plugins/wp-migration-duplicator
-/wp-content/plugins/wordpress-importer
-/wp-content/plugins/sg-security
-/wp-content/plugins/sg-cachepress
-/wp-content/plugins/all-in-one-wp-migration
-/wp-content/plugins/jetpack
-/wp-content/plugins/wordfence
-/wp-content/plugins/wpe-site-migration
+# Ignore All plugins Except
+/wp-content/plugins/*
+!wp-content/plugins/nls-post-carousel-main/
+!wp-content/plugins/nls-post-grid-main/
 
 # ReIgnore Igore Files
 .DS_Store
 node_modules
+
+# Only Ignore Twenty themes
+#/wp-content/themes/twenty*/
+
+# Common plugins to be ignored
+#/wp-content/plugins/siteground-migrator
+#/wp-content/plugins/worker
+#/wp-content/plugins/wp-migration-duplicator
+#/wp-content/plugins/wordpress-importer
+#/wp-content/plugins/sg-security
+#/wp-content/plugins/sg-cachepress
+#/wp-content/plugins/all-in-one-wp-migration
+#/wp-content/plugins/jetpack
+#/wp-content/plugins/wordfence
+#/wp-content/plugins/wpe-site-migration
